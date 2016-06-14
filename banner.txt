@@ -1,0 +1,6 @@
+[
+{"img":"img/bigimg/banner1.jpg","desc":"2016年全新的JavaScript培训"},
+{"img":"img/bigimg/banner2.jpg","desc":"2016年全新的JavaScript培训"},
+{"img":"img/bigimg/banner3.jpg","desc":"2016年全新的JavaScript培训"},
+{"img":"img/bigimg/banner4.jpg","desc":"2016年全新的JavaScript培训"}
+]

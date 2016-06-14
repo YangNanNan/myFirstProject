@@ -1,0 +1,258 @@
+body,div,ul,li,ol,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,a,img,span,input,table,tr,th,td,b,i,s,em,strong,font,form,big,small,label,select,textarea,caption{
+    margin: 0;
+    padding: 0;
+    font-family:"verdana,simsun";
+}
+img,input{
+    border: none;
+    outline: none;
+    vertical-align: middle;
+}
+ul,ol{
+    list-style: none;
+}
+i,em,s{
+    font-style: normal;
+    text-decoration: none;
+}
+a{
+    color: #666666;
+    text-decoration: none;
+}
+a, a:hover, a:active, a:visited, a:target {
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+}
+/*以上为公共样式*/
+.w1210{
+    width: 1210px;
+    margin: 0 auto;
+}
+/*header start*/
+.content .header{
+    position: relative;
+    width: 100%;
+    min-width: 1210px;
+    height: 100px;
+    background: url("../img/xbt/headbg.jpg") repeat-x left bottom;
+}
+.content .header .w1210 .logo a{
+    float: left;
+    width: 160px;
+    height: 50px;
+    margin-top: 25px;
+    background: url("../img/xbt/icon.png") no-repeat;
+}
+.content .header .w1210 .logo .logoTitle{
+    float: left;
+    margin-top: 34px;
+    margin-left: 25px;
+    padding-left: 25px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 18px;
+    color: #000;
+    border-left: 1px solid #bbb;
+}
+.content .header .w1210 .haveAccount{
+    float: right;
+    margin-top: 55px;
+    font-size: 16px;
+    color: #999;
+    font-weight: 600;
+}
+/* 表单*/
+.content .container .main{
+    margin: 50px auto 60px;
+    width: 830px;
+}
+.content .container .main .form{
+    float: left;
+    width: 400px;
+}
+.content .container .main .form .box .formItem{
+    width: 398px;
+    height: 52px;
+    line-height: 52px;
+    border:1px solid #ddd;
+}
+.content .container .main .form .box .formItem label{
+    display: inline-block;
+    padding-left: 20px;
+    width: 90px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 14px;
+    color: #666;
+}
+.content .container .main .form .box .formItem input{
+    display: inline-block;
+    margin-top: -5px;
+    height: 52px;
+    font-size: 18px;
+}
+.content .container .main .form .box .formT{
+    padding-top: 5px;
+    height: 27px;
+    font-size: 12px;
+    color: #c5c5c5;
+}
+/*表单下拉菜单 手机号*/
+.content .container .main .form .box .formItem .select select{
+    height: 52px;
+    margin-top: -1px;
+    border: none;
+}
+.content .container .main .form .pos{
+    position: relative;
+}
+.content .container .main .form .box .eMail{
+    position: absolute;
+    right: 0;
+    top: 59px;
+    font-size: 12px;
+}
+.content .container .main .form .box .eMail a{
+    color: #3388ff;
+}
+/*获取验证码*/
+.content .container .main .form .box .formItem .phone{
+    width: 160px;
+}
+.content .container .main .form .box .formItem button{
+    float: right;
+    width: 110px;
+    height: 52px;
+    border: none;
+    cursor: pointer;
+}
+.content .container .main .form .box .formItem .wrap{
+    float: right;
+    width: 110px;
+    height: 52px;
+    line-height: 52px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    -webkit-user-select: none;
+    background: #CCCCCC;
+}
+.content .container .main .form .check span{
+    color: #000;
+    font-size: 14px;
+}
+.content .container .main .form .check input{
+    width: 18px;
+    height: 18px;
+    border: 1px solid #cfd1d3;
+    vertical-align: text-top;
+    padding: 0;
+    margin-right: 10px;
+}
+.content .container .main .form .check a{
+    color: #38f;
+    font-size: 12px;
+}
+.content .container .main .form .button{
+    margin-top: 55px;
+    width: 100%;
+}
+.content .container .main .form .button .btn{
+    width: 100%;
+    height: 54px;
+    color: #ffffff;
+    background: #e22;
+    border: 0;
+    font-size: 16px;
+}
+/*////////////input  right///////////////////////*/
+.content .container .main .sendA{
+    float: left;
+    margin-left: 104px;
+    height: 605px;
+    padding-left: 90px;
+    border-left: 1px solid #e6e6e6;
+}
+.content .container .main .sendA .first{
+    width: 213px;
+    height: 270px;
+    background: url("../img/phone.jpg") no-repeat;
+}
+.content .container .main .sendA .company{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 160px;
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+}
+.content .container .main .sendA .company a{
+    display: block;
+    width: 160px;
+    height: 30px;
+    color: #666;
+}
+.content .container .main .sendA .company a i{
+    display: inline-block;
+    margin-right: 15px;
+    width: 30px;
+    height: 29px;
+    vertical-align: middle;
+    background: url("../img/xbt/icon.png") no-repeat 0 -50px;
+}
+.content .container .main .sendA .company a span{
+    vertical-align: middle;
+}
+.content .container .main .sendA .inter{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 160px;
+}
+.content .container .main .sendA .inter a{
+    display: block;
+    width: 170px;
+    height: 30px;
+    color: #666;
+}
+.content .container .main .sendA .inter a i{
+    float: left;
+    /*display: inline-block;*/
+    margin-right: 15px;
+    margin-top: 7px;
+    width: 30px;
+    height: 30px;
+    vertical-align: text-bottom;
+    background: url("../img/xbt/icon.png") no-repeat -50px -50px;
+}
+.content .container .main .sendA .inter a span{
+    display: inline-block;
+}
+/*//////////////footer//////////*/
+.content .footer{
+    border-top: 1px solid #e5e5e5;
+    padding: 20px 0 30px;
+    text-align: center;
+}
+.content .footer .links{
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    color: #666;
+}
+.content .footer .links a {
+    margin: 0 10px;
+}
+.content .footer .links a:hover{
+    color: #C81623;
+}
+.content .footer .copyright{
+    margin-top: 15px;
+    font-size: 12px;
+    text-align: center;
+    color: #999;
+}

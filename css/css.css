@@ -79,6 +79,7 @@ a{
     border: 1px solid #dddddd;
     border-top-color:#ffffff ;
     background: #ffffff;
+    z-index: 10;
 }
 .content .header .sendAddress:hover{
     background: #ffffff;
@@ -88,7 +89,7 @@ a{
 .content .header .Send .sendAddress:hover i s{
     transform: rotate(180deg);
     top: -9px;
-    left: 0;
+    left: -2px;
 }
 .content .header .Send:hover .address{
     display: block;
@@ -230,7 +231,7 @@ a{
     background: url("../img/xbt/571497daNe857f9ed.png") no-repeat;
     border: 1px solid #dddddd;
     border-top-color: #ffffff;
-    z-index: 1;
+    z-index: 10;
 }
 .content .header .headerList .phoneJD .phoneCon .phoneConList1{
     position: absolute;
@@ -307,7 +308,7 @@ a{
     border: 1px solid #dddddd;
     border-top-color: #ffffff;
     background: #ffffff;
-    z-index: 1;
+    z-index: 10;
 }
 .content .header .headerList .attentionJD:hover{
     background: #ffffff;
@@ -817,7 +818,7 @@ a{
 .content .w1210 .allSortList .banner .inner{
     position: absolute;
     left: 0;
-    width: 4380px;
+    /*width: 4380px;*/
     height: 454px;
 }
 .content .w1210 .allSortList .banner .inner div{
@@ -846,7 +847,7 @@ a{
     color: #ffffff;
     background: #3e3e3e;
 }
-.content .w1210 .allSortList .banner .btn .select{
+.content .w1210 .allSortList .banner .btn .selected{
     background: #b61b1f;
 }
 .content .w1210 .allSortList .banner .leftBtn,.content .w1210 .allSortList .banner .rightBtn{
@@ -1189,6 +1190,7 @@ a{
     margin-top: -31px;
     width: 28px;
     height: 62px;
+    line-height: 62px;
     font-size: 22px;
     text-align: center;
     color: #ffffff;
@@ -1898,6 +1900,323 @@ a{
 /*//////////////////////////第二个界面//////////////////////////////////////////*/
 
 /*//////////////////////////////////天天低价//////////////////////////////////////////////////////*/
-
-
-
+.content .w1210 .lastBox{
+    margin-top: 16px;
+    width: 100%;
+    height: 322px;
+}
+.content .w1210 .lastBox h3{
+    line-height: 42px;
+    font-size: 18px;
+}
+.content .w1210 .lastBox .offer{
+    float: left;
+    width: 899px;
+}
+.content .w1210 .lastBox .offer .left{
+    height: 281px;
+    /*border: 1px solid #CCCCCC;*/
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+}
+.content .w1210 .lastBox .offer .left .leftList{
+    float: left;
+    padding-left: 30px;
+    padding-right: 12px;
+    width: 195px;
+    height: 100%;
+    border-bottom: 1px solid #CCCCCC;
+}
+.content .w1210 .lastBox .offer .left .leftList .max{
+    width: 160px;
+    height: 160px;
+}
+.content .w1210 .lastBox .offer .left .leftList .max img{
+    display: block;
+    margin-top: 22px;
+    width: 100%;
+    height: 100%;
+}
+.content .w1210 .lastBox .offer .left .name{
+    display: block;
+    line-height: 24px;
+    font-size: 12px;
+    color: #666666;
+}
+.content .w1210 .lastBox .offer .left .money{
+    line-height: 24px;
+    font-size: 16px;
+    color: #e12228;
+    font-weight: 700;
+}
+/*天天特价右面的盒子列表*/
+.content .w1210 .lastBox .offer .left .rightList{
+    float: left;
+    width: 658px;
+    height: 100%;
+}
+.content .w1210 .lastBox .offer .left .rightList .rightListCon{
+    float: left;
+    width: 660px;
+    height: 100%;
+    border-left: 1px solid #CCCCCC;
+}
+.content .w1210 .lastBox .offer .left .rightList .rightListCon li{
+    float: left;
+    padding-top: 20px;
+    width: 219px;
+    height: 120px;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+.content .w1210 .lastBox .offer .left .rightList .rightListCon li .float{
+    float: left;
+    margin-right: 10px;
+}
+.content .w1210 .lastBox .offer .left a:hover{
+    color: #e12228;
+}
+/*热门晒单*/
+.content .w1210 .lastBox .userComments{
+    float: left;
+    width:268px;
+    /*height: 226px;*/
+}
+.content .w1210 .lastBox .userComments .userComList{
+    padding: 35px 20px 20px;
+    width: 268px;
+    height: 226px;
+    border: 1px solid #CCCCCC;
+    border-left: none;
+}
+.content .w1210 .lastBox .userComments .userComList .box{
+    position: relative;
+    width: 268px;
+    height: 226px;
+}
+.content .w1210 .lastBox .userComments .userComList .box ul{
+    position: absolute;
+    top: 0;
+}
+.content .w1210 .lastBox .userComments .userComList .box ul li{
+    height: 100px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.content .w1210 .lastBox .userComments .userComList .box ul li .commodity{
+    float: left;
+    /*display: inline;*/
+    padding: 10px 0;
+    width: 80px;
+    height: 80px;
+}
+.content .w1210 .lastBox .userComments .userComList .box ul li .commodity img{
+    width: 100%;
+    height: 100%;
+}
+.content .w1210 .lastBox .userComments .userComList .box ul li .evaluate{
+    float: left;
+    padding-left: 20px;
+    margin-top: 3px;
+    display: inline;
+    width: 166px;
+}
+.content .w1210 .lastBox .userComments .userComList .box ul li .evaluate .user{
+    height: 28px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.content .w1210 .lastBox .userComments .userComList .box ul li .evaluate .user img{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.content .w1210 .lastBox .userComments .userComList .box ul li .evaluate .user span{
+    line-height: 28px;
+    font-size: 12px;
+    color: #666666;
+}
+.content .w1210 .lastBox .userComments .userComList .box ul li .evaluate .evalCon{
+    position: relative;
+    width: 130px;
+    height: 34px;
+    padding: 10px 15px 10px 20px;
+    background: #f8f8f8;
+    color: #999;
+    overflow: visible;
+}
+.content .w1210 .lastBox .userComments .userComList .box ul li .evaluate .evalCon a{
+    font-size: 12px;
+}
+.content .w1210 .lastBox .userComments .userComList .box ul li .evaluate .evalCon .icon_r{
+    font-size: 38px;
+    line-height: 38px;
+    color: #aaa;
+    vertical-align: -24px;
+    font-family: Arial;
+}
+.content .w1210 .lastBox .userComments .userComList .box ul li .evaluate .evalCon .arrow{
+    position: absolute;
+    left: -9px;
+    top: 16px;
+    color: #f8f8f8;
+    font-size: 20px;
+}
+.content .w1210 .lastBox .userComments .userComList .box ul li .evaluate .evalCon .icon_l{
+    position: absolute;
+    left: 4px;
+    top: 7px;
+    font-size: 38px;
+    line-height: 38px;
+    color: #aaa;
+    font-family: Arial;
+}
+/*footer start*/
+.content .footer{
+    margin-top: 20px;
+    height: 457px;
+}
+.content .footer .server{
+    /*margin-bottom: 20px;*/
+}
+/*多快少省*/
+.content .footer .server .slogen{
+    height: 54px;
+    padding: 20px 0;
+    margin-bottom: 14px;
+    background: #f5f5f5;
+    /*text-align: center;*/
+}
+.content .footer .server .slogen .item{
+    display: inline-block;
+    margin-left: 92px;
+    width: 220px;
+    height: 54px;
+}
+.content .footer .server .slogen .item i{
+    display: block;
+  /*  position: absolute;
+    top: 16px;
+    left: 10px;*/
+    width: 220px;
+    height: 54px;
+}
+.content .footer .server .slogen .pos1 i{
+    background-image: url("../img/service_items_1.png");
+}
+.content .footer .server .slogen .pos2 i{
+    background-image: url("../img/service_items_2.png");
+}
+.content .footer .server .slogen .pos3 i{
+    background-image: url("../img/service_items_3.png");
+}
+.content .footer .server .slogen .pos4 i{
+    background-image: url("../img/service_items_4.png");
+}
+.content .footer .server .w1210 dl{
+    float: left;
+    width: 199px;
+}
+.content .footer .server .w1210 dl dt{
+    padding: 6px 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #666;
+}
+.content .footer .server .w1210 dl dd{
+    line-height: 20px;
+    font-size: 12px;
+}
+.content .footer .server .w1210 dl dd div a{
+    color: #666;
+}
+.content .footer .server .w1210 .fore5{
+    width: 100px;
+}
+.content .footer .server .w1210 dl dd div a:hover{
+    color: #C81623;
+}
+.content .footer .server .w1210 .coverage{
+    float: right;
+    width: 310px;
+    height: 168px;
+    color: #666;
+    background: url("../img/xbt/20130330B_1.png") no-repeat 60px -131px;
+}
+.content .footer .server .w1210 .coverage .dt{
+    padding: 6px 40px 15px 80px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.content .footer .server .w1210 .coverage .dd{
+    padding: 0 40px 15px 80px;
+}
+.content .footer .server .w1210 .coverage .dd p{
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+}
+.content .footer .server .w1210 .coverage .dd .right{
+    float: right;
+}
+.content .footer .server .w1210 .coverage .dd .right a:hover{
+    color: #C81623;
+}
+/*//////////////////////////////////////////////////*/
+.content .footer .server .w1210 .footer2{
+    border-top: 1px solid #e5e5e5;
+    padding: 20px 0 30px;
+    text-align: center;
+}
+.content .footer .server .w1210 .footer2 .links{
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    color: #666;
+}
+.content .footer .server .w1210 .footer2 .links a {
+    margin: 0 10px;
+}
+.content .footer .server .w1210 .footer2 .links a:hover{
+    color: #C81623;
+}
+.content .footer .server .w1210 .footer2 .qualification{
+    line-height: 18px;
+    font-size: 12px;
+    color: #666;
+}
+.content .footer .server .w1210 .footer2 .qualification a:hover{
+    color: #C81623;
+}
+/*////////////////左侧楼层导航/////////////////*/
+.content .floorNav{
+    position: fixed;
+    left: 35px;
+    top: 40px;
+}
+.content .floorNav ul{
+    display: block;
+    overflow: hidden;
+    /*background: rgba(255,255,255,0.8);*/
+    background: #fceaff;
+}
+.content .floorNav ul li{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: -1px;
+    cursor: pointer;
+}
+.content .floorNav ul li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    color: #625351;
+    font-size: 14px;
+    background: url("../img/xbt/123.png") no-repeat 0 0;
+}
