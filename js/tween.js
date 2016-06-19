@@ -12,6 +12,7 @@
      * @param duration 需要运动的时间间隔
      */
     function move(curEle,target,duration,effect,callback){//驱动元素运动的
+        window.clearInterval(curEle.timer);
         var time=null;
         var interval=10;
         var begin={};//通过传入来target的维度来确定begin有多少个维度

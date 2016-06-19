@@ -3,10 +3,11 @@ body,div,ul,li,ol,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,a,img,span,input,table,tr,th,td,b
     padding: 0;
     font-family:"verdana,simsun";
 }
-img,input{
+img,input,button{
     border: none;
     outline: none;
     vertical-align: middle;
+    /*list-style-type:none;*/
 }
 ul,ol{
     list-style: none;
