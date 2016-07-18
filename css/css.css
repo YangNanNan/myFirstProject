@@ -675,9 +675,10 @@ a{
     height: 30px;
     margin-left: 9px;
     font-size: 14px;
-    font-weight: 600;
+    /*font-weight: 600;*/
     color: #ffffff;
     cursor: pointer;
+    font-family: "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB","\5b8b\4f53",sans-serif;
 }
 .content .w1210 .allSortList .sort_box ul li .leftList i{
     position:absolute;
